@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SnapEngage_TestSuite">
+	<test name="Login TestPass">
+		<classes>
+			<class name="com.snapEngage.selenium.LoginTestcase1" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Login TestFail">
+		<classes>
+			<class name="com.snapEngage.selenium.LoginTestcase2" />
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- SnapEngage_TestSuite -->
